@@ -1,4 +1,11 @@
 {
   "name": "colorpixels",
-  "packageManager": "yarn@4.5.3"
+  "packageManager": "yarn@4.5.3",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "typescript": "~5.6.2"
+  }
 }

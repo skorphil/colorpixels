@@ -1,0 +1,26 @@
+
+.pageList {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    padding: 24px;
+    width: 148px;
+
+    border-right: 1px solid hsl(var(--border));
+}
+
+.bookPage {
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+    /* border-right-style: solid; */
+    
+}
+
+.pageCanvas {
+    flex-grow: 1;
+    width:100%;
+    padding: 24px;
+}

@@ -1,0 +1,20 @@
+.pageSnippet {
+    width: 100px;
+    height: 100px;
+}
+
+.horizontal {
+    width: 100px;
+    height: 80px;
+}
+.vertical {
+    width: 80px;
+    height: 100px;
+}
+
+.pagePreview {
+    overflow: hidden;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    border: 1px solid hsl(var(--border))
+}
