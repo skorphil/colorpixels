@@ -4,6 +4,8 @@ import type { ReactElement } from "react";
 
 type PageSnippetProps = {
   horizontal?: boolean;
+  children?: ReactElement;
+  imageUrl?: string;
 };
 
 // TODO addnewpage variant
@@ -19,7 +21,7 @@ function PageSnippet(props: PageSnippetProps): ReactElement {
         props.horizontal ? styles.horizontal : styles.vertical
       }`}
     >
-      <img src="https://i.pinimg.com/736x/fa/c2/ab/fac2abb69ff8503d184be8d5417ea650.jpg"></img>
+      {props.children || <img src={props.imageUrl}></img>}
     </div>
   );
 }

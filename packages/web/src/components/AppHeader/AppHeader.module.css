@@ -1,0 +1,16 @@
+.heading {
+    font-size: x-large;
+    font-family: "tiny5" ;
+}
+
+.appHeader {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width:100%;
+
+    font-family: "Tiny5", serif;
+  font-weight: 400;
+  font-style: normal;
+}

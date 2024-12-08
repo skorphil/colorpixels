@@ -2,22 +2,12 @@
     display:flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 24px;
     
     width: 280px;
     padding: 0 8px;
-}
 
-.bookSettings {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 24px;
 
-    width: 100%;
-}
-
-.heading {
-    font-size: x-large;
 }
 
 main {

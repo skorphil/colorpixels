@@ -13,6 +13,9 @@
 }
 
 .pagePreview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     background-color: hsl(0, 0%, 100%);
     border-radius: 8px;

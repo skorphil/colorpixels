@@ -1,0 +1,18 @@
+{
+  "name": "@colorpixels/api",
+  "type": "module",
+  "scripts": {
+    "start": "yarn tsx src/index.ts",
+    "dev": "yarn tsx --watch src/index.ts"
+  },
+  "packageManager": "yarn@4.5.3",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

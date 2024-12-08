@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'SF Mono', 'Roboto Mono', 'Menlo', 'Monaco', 'Courier', 'system-ui', monospace;
   line-height: 1.5;
   font-weight: 400;
 
@@ -14,5 +16,5 @@
 }
 
 body {
-   height: 100vh;
+   height: 100dvh;
 }
