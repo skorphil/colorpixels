@@ -2,7 +2,7 @@
   "name": "@colorpixels/api",
   "type": "module",
   "scripts": {
-    "start": "yarn tsx src/index.ts",
+    "start": "yarn tsx --sourceMap src/index.ts",
     "dev": "yarn tsx --watch src/index.ts"
   },
   "packageManager": "yarn@4.5.3",

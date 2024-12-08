@@ -5,6 +5,7 @@ const app = express();
 const port = 3000;
 console.log("started");
 app.get("/", (req: Request, res: Response) => {
+  const request = req;
   res.send("Hello0000 World");
 });
 

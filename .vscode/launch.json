@@ -6,19 +6,20 @@
   "configurations": [
     {
       "type": "node",
-      "cwd": "${workspaceFolder}",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Debug API",
       "skipFiles": ["<node_internals>/**"],
+      "cwd": "${workspaceFolder}/packages/api",
       "runtimeExecutable": "yarn",
       "args": [
-        "run",
-        "start"  // Adjust this path to your entry file
+        "tsx",
+        "${workspaceFolder}/packages/api/src/index.ts"  // Adjust this path to your entry file
       ],
       "env": {
         "NODE_ENV": "development"
       },
-      "outFiles": ["${workspaceFolder}/packages/api/dist/**/*.js"],
+      "sourceMaps": true,
+      "console": "integratedTerminal"
     }
   ]
 }
